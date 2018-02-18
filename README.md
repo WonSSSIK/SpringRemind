@@ -1,2 +1,0 @@
-# SpringRemind
-Training SpringFramework
