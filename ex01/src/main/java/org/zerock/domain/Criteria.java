@@ -22,7 +22,7 @@ public class Criteria {
 	
 	public void setPerPagerNum(int perPageNum) {
 		
-		if(perPageNum <= 0|| perPageNum >100) {
+		if(perPageNum <= 0 || perPageNum >100) {
 			this.perPageNum = 10;
 			return;
 		}

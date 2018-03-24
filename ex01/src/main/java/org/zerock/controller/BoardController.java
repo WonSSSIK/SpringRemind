@@ -91,7 +91,7 @@ public class BoardController {
 		model.addAttribute(service.read(bno));
 	}
 	
-	@RequestMapping(value="/modify", method=RequestMethod.POST)
+	@RequestMapping(value="/modifyPage", method=RequestMethod.POST)
 	public String modifyPOST(BoardVO board, RedirectAttributes rttr)throws Exception{
 		logger.info("mod post.................");
 		
