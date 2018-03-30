@@ -35,7 +35,7 @@ public class ReplyServiceImpl implements ReplyService {
 		
 		dao.delete(rno);
 	}
-	
+	 
 	
 
 }
